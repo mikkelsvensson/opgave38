@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run tests
-        working-directory: ./UnitTests.Invariance
+        working-directory: ./opgave36.test
         run: dotnet test
 
   build:
